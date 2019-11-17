@@ -1,0 +1,151 @@
+# Linter Options
+options:
+    # Don't merge default rules
+    formatter: stylish
+    cache-config: true
+    merge-default-rules: false
+# File Options
+files:
+    include:
+        - 'src/**/*.scss'
+    ignore:
+        - 'src/components/commons/tooltip/tooltip.override.scss'
+# Rule Configuration
+rules:
+    # Extends
+    extends-before-mixins: 2
+    extends-before-declarations: 2
+
+    # Mixins
+    mixins-before-declarations: 2
+
+    # Line Spacing
+    one-declaration-per-line: 2
+    single-line-per-selector: 2
+    empty-line-between-blocks: 2
+
+    # Disallows
+    no-color-keywords: 2
+    no-color-literals:
+        - 2
+        -
+            allow-rgba: true
+    no-css-comments: 2
+    no-debug: 2
+    no-duplicate-properties: 2 # Add exceptions if necessary
+    no-empty-rulesets: 2
+    no-ids: 2
+    no-extends: 1
+    no-important: 2
+    no-invalid-hex: 2
+    no-mergeable-selectors: 2
+    no-misspelled-properties: 2
+    no-qualifying-elements: 2
+    no-trailing-whitespace: 2
+    no-trailing-zero: 2
+    no-transition-all: 2
+    no-url-domains: 1
+    no-url-protocols: 1
+    no-warn: 2
+    no-combinators: 0
+
+    # Nesting
+    declarations-before-nesting: 2
+    force-attribute-nesting: 2
+    force-element-nesting: 2
+    force-pseudo-nesting: 2
+
+    # Name Formats
+    class-name-format:
+        - 2
+        -
+            convention: hyphenatedbem
+            convention-explanation: 'Class must be like &__example or &__second-example'
+    bem-depth:
+        - 2
+        -
+            max-depth: 10 # no more!
+    function-name-format:
+        - 2
+        -
+            allow-leading-underscore: true,
+            convention: hyphenatedlowercase
+            convention-explanation: 'Functions must contain lowercase and minus sign'
+    mixin-name-format: 0
+    placeholder-name-format:
+        - 2
+        -
+            convention: hyphenatedbem
+    variable-name-format: 2
+
+    # Style Guide
+    attribute-quotes: 2
+    border-zero:
+        - 2
+        -
+            convention: '0'
+    brace-style:
+        - 2
+        -
+            style: 1tbs
+    empty-args: 2
+    clean-import-paths: 0
+    hex-notation:
+        - 2
+        -
+            style: uppercase
+    hex-length:
+        - 2
+        -
+            style: short
+    indentation:
+        - 2
+        -
+            size: 4
+    leading-zero:
+        - 2
+        -
+            include: false
+    nesting-depth:
+        - 1
+        -
+            max-depth: 5
+
+    property-sort-order:
+        - 2
+        -
+            order: smacss
+            ignore-custom-properties: true
+    pseudo-element: 0
+    quotes: 2
+    shorthand-values: 2
+    url-quotes: 2
+    variable-for-property: 2
+    zero-unit: 2
+    no-attribute-selectors: 1
+
+    # Inner Spacing
+    space-after-comma: 2
+    space-before-colon: 2
+    space-after-colon: 2
+    space-before-brace: 2
+    space-before-bang: 2
+    space-after-bang:
+        - 2
+        -
+            include: true
+    space-between-parens: 2
+    space-around-operator: 2
+
+    # Final Items
+    trailing-semicolon: 2
+    final-newline: 2
+    no-universal-selectors: 1
+    max-line-length:
+        - 1
+        -
+            length: 200
+    max-file-line-count:
+        - 1
+        -
+            length: 400

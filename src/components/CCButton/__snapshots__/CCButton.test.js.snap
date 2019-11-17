@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders without props 1`] = `
+.c0 {
+  text-align: center;
+  line-height: 2.5rem;
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: 700;
+  padding: 0 12px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  background: palevioletred;
+}
+
+.c0:hover {
+  background: blueviolet;
+}
+
+<button
+  className="c0"
+/>
+`;
