@@ -12,7 +12,9 @@ const CCButton = ({
   fontColor,
   disable,
   showBorder,
-  backgroundColor
+  backgroundColor,
+  onClickCallBack,
+  hoverBackgroundHover
 }) => {
 
   const buildStyles = () => {
@@ -37,8 +39,14 @@ const CCButton = ({
       )
   }
 
+  const onChangeBackground = () => {
+    if (!hoverBackgroundHover) return null;
+  }
+
   return (
       <button
+          onClick={(e) => onClickCallBack(e)}
+          onMouseOver={() => onChangeBackground()}
           className={buildClassNames()}
           style={buildStyles()}
       >
@@ -56,7 +64,9 @@ CCButton.propTypes = {
   fontColor: PropTypes.string,
   disable: PropTypes.bool,
   showBorder: PropTypes.bool,
-  backgroundColor: PropTypes.string
+  backgroundColor: PropTypes.string,
+  onClickCallBack: PropTypes.func,
+  hoverBackgroundHover: PropTypes.bool
 };
 
 CCButton.defaultProps = {
@@ -66,7 +76,9 @@ CCButton.defaultProps = {
   fontColor: '#111',
   disable: false,
   showBorder: true,
-  backgroundColor: '#FFF'
+  backgroundColor: '#FFF',
+  hoverBackgroundHover: false,
+  onClickCallBack: () => null
 };
 
 export default CCButton;

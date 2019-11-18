@@ -3,6 +3,7 @@
   "main": "build/static/js/main.js",
   "version": "0.1.0",
   "license": "MIT",
+  "homepage": "https://my-github-name.github.io/my-library/",
   "scripts": {
     "analyze": "source-map-explorer build/static/js/main.*",
     "start": "start-storybook -p 9009 -s public",
@@ -32,7 +33,9 @@
     "styled-components": "^4.1.1"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^5.2.6",
     "@storybook/addon-backgrounds": "^5.2.6",
+    "@storybook/addon-console": "^1.2.1",
     "@storybook/addons": "^5.2.6",
     "@storybook/react": "^5.2.6",
     "commitizen": "^3.0.4",
