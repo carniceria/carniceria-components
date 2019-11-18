@@ -3,7 +3,7 @@
   "main": "build/static/js/main.js",
   "version": "0.1.0",
   "license": "MIT",
-  "homepage": "https://my-github-name.github.io/my-library/",
+  "homepage": "https://github.com/carniceria/carniceria.github.io/react-components/",
   "scripts": {
     "analyze": "source-map-explorer build/static/js/main.*",
     "start": "start-storybook -p 9009 -s public",
