@@ -1,0 +1,15 @@
+.cc-button {
+  padding: 10px 20px;
+  border: 4px solid;
+  outline: 0;
+  background: none;
+  cursor: pointer; }
+  .cc-button.-disabled {
+    cursor: default;
+    pointer-events: none; }
+  .cc-button.-no-border {
+    border: 0; }
+
+
+
+/*# sourceMappingURL=main.css.map*/
