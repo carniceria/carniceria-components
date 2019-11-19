@@ -1,13 +1,13 @@
 {
-  "main.css": "/my-library/main.css",
-  "main.js": "/my-library/main.2f4c74049db92298c40f.bundle.js",
-  "main.css.map": "/my-library/main.css.map",
-  "main.js.map": "/my-library/main.2f4c74049db92298c40f.bundle.js.map",
-  "runtime~main.js": "/my-library/runtime~main.2f4c74049db92298c40f.bundle.js",
-  "runtime~main.js.map": "/my-library/runtime~main.2f4c74049db92298c40f.bundle.js.map",
-  "vendors~main.js": "/my-library/vendors~main.2f4c74049db92298c40f.bundle.js",
-  "vendors~main.js.map": "/my-library/vendors~main.2f4c74049db92298c40f.bundle.js.map",
-  "iframe.html": "/my-library/iframe.html",
-  "precache-manifest.4d77217de0615b7d43ddadb0265e1c11.js": "/my-library/precache-manifest.4d77217de0615b7d43ddadb0265e1c11.js",
-  "service-worker.js": "/my-library/service-worker.js"
+  "main.css": "/carniceria/carniceria.github.io/main.css",
+  "main.js": "/carniceria/carniceria.github.io/main.2f4c74049db92298c40f.bundle.js",
+  "main.css.map": "/carniceria/carniceria.github.io/main.css.map",
+  "main.js.map": "/carniceria/carniceria.github.io/main.2f4c74049db92298c40f.bundle.js.map",
+  "runtime~main.js": "/carniceria/carniceria.github.io/runtime~main.2f4c74049db92298c40f.bundle.js",
+  "runtime~main.js.map": "/carniceria/carniceria.github.io/runtime~main.2f4c74049db92298c40f.bundle.js.map",
+  "vendors~main.js": "/carniceria/carniceria.github.io/vendors~main.2f4c74049db92298c40f.bundle.js",
+  "vendors~main.js.map": "/carniceria/carniceria.github.io/vendors~main.2f4c74049db92298c40f.bundle.js.map",
+  "iframe.html": "/carniceria/carniceria.github.io/iframe.html",
+  "precache-manifest.4d77217de0615b7d43ddadb0265e1c11.js": "/carniceria/carniceria.github.io/precache-manifest.4d77217de0615b7d43ddadb0265e1c11.js",
+  "service-worker.js": "/carniceria/carniceria.github.io/service-worker.js"
 }
