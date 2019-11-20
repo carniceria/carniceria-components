@@ -9,16 +9,15 @@ import { withConsole } from '@storybook/addon-console';
 import CCModal from "./CCModal";
 import readme from "./README.md";
 
-const buildProps = (fontSize, disable, borderColor, fontColor, showBorder, backgroundColor, hoverBackgroundHover) => {
+const buildProps = (backgroundModalColor, showModal, showBackgroundModal, widthCloseIcon, widthModal, maxWidthModal) => {
     return (
         {
-          fontSize,
-          disable,
-          borderColor,
-          fontColor,
-          showBorder,
-          backgroundColor,
-          hoverBackgroundHover
+            backgroundModalColor,
+            showModal,
+            showBackgroundModal,
+            widthCloseIcon,
+            widthModal,
+            maxWidthModal
         }
     )
 }
@@ -31,7 +30,17 @@ storiesOf("CCModal", module).addDecorator(withKnobs)
     .add("Modal básico", () => {
         return (
             <Fragment>
-                <CCModal>
+                <CCModal
+                    {...buildProps(
+                        text('Background Modal Color', 'rgba(0, 0, 0, 0.5)'),
+                        boolean('Show Modal', true),
+                        boolean('Show Background Modal', true),
+                        number('Width Close Icon', 16),
+                        text('Width Modal', '60%'),
+                        text('Max Width Modal', '60%'),
+                    )}
+                >
+                    <h1>Hola</h1>
                 </CCModal>
             </Fragment>
         );
