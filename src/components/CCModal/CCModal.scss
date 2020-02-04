@@ -1,3 +1,33 @@
-.cc-modal {
+@import '../../styles/index';
 
+.cc-modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cc-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: $white;
+
+    &__container {
+        position: relative;
+        padding: 30px 60px;
+
+        &__close-icon {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+        }
+
+        &__body {
+
+        }
+    }
 }

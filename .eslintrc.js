@@ -8,7 +8,7 @@ module.exports = {
     settings: {
         react: {
             pragma: 'React', // Pragma to use, default to "React"
-            version: '16.4.2'
+            version: '16.6.3'
         }
     },
     parserOptions: {
@@ -88,28 +88,5 @@ module.exports = {
         'react/self-closing-comp': 0,
         'react/sort-comp': 1,
         'react/jsx-wrap-multilines': 1
-    },
-    globals: {
-        require: false,
-        process: false,
-        expect: false,
-        jest: false,
-        $: false,
-        __ENVIRONMENT__: false,
-        __DEBUG_MODE__: false,
-        __BASE_HOST__: false,
-        __BASE_HOST_PRIVADA__: false,
-        __LOG_API_ERRORS_REMOTELY__: false,
-        __MOCK_ALL_ENDPOINTS__: false,
-        __MOCKED_ENDPOINTS__: false,
-        __REDIRECTED_ENDPOINTS__: false,
-        __PUBLIC_URL__: false,
-        __SHOW_API_ERRORS__: false,
-        __CONTACT_CENTER__: false,
-        __TEST__: false,
-        __PUBLIC_URL_ES__: false,
-        __PUBLIC_URL_DE__: false,
-        __PUBLIC_URL_NL__: false,
-        __PUBLIC_URL_PT__: false
     }
 };
